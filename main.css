@@ -1,0 +1,138 @@
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  margin-bottom: 150px;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.header__link {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  margin-left: 20px;
+}
+.header__link:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  left: 50%;
+  top: 25px;
+  transform: translateX(-50%);
+  transition: all;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+.header__link:hover:after {
+  width: 100%;
+}
+.header__logo--img {
+  width: 70px;
+  height: auto;
+}
+
+.about {
+  margin-bottom: 150px;
+}
+.about__top {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+.about__img {
+  width: 50%;
+  height: auto;
+  border-radius: 20px;
+}
+.about__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+.about__list--item {
+  font-size: 20px;
+}
+.about__sublist {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about__sublist--item {
+  font-size: 20px;
+  list-style: none;
+}
+.about__place {
+  display: flex;
+  flex-direction: column;
+}
+.about__place--text {
+  font-size: 24px;
+  font-weight: bold;
+}
+.about__place--map {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer {
+  justify-self: end;
+}
+
+.pastor__desc {
+  font-size: 20px;
+}
+.pastor__top {
+  margin-bottom: 60px;
+}
+.pastor__top--left {
+  display: flex;
+  gap: 40px;
+}
+.pastor__img {
+  width: 50%;
+  height: auto;
+  border-radius: 20px;
+}
+.pastor__bottom {
+  margin-bottom: 60px;
+}
+.pastor__bottom--list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.pastor__bottom--list-item {
+  font-size: 18px;
+}
+.pastor__ps {
+  font-size: 16px;
+}
+
+body {
+  position: relative;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  min-width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */

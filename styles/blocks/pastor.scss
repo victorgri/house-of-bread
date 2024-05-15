@@ -1,0 +1,38 @@
+.pastor {
+
+  &__desc {
+    font-size: 20px;
+  }
+
+  &__top {
+    margin-bottom: 60px;
+
+    &--left {
+      display: flex;
+      gap: 40px;
+    }
+  }
+
+  &__img {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  &__bottom {
+    margin-bottom: 60px;
+    &--list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      &-item {
+        font-size: 18px;
+      }
+    }
+  }
+
+  &__ps {
+    font-size: 16px;
+  }
+}
