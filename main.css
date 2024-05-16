@@ -199,11 +199,11 @@ blockquote {
   border-left: 5px solid #c7254e;
 }
 
-.postheader {
+.postheader__inner {
   width: 100%;
   margin-bottom: 60px;
 }
-.postheader__img {
+.postheader__inner--img {
   width: 100%;
   height: auto;
 }
