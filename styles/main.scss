@@ -26,3 +26,13 @@ blockquote {
   color: #c7254e;
   border-left: 5px solid #c7254e;
 }
+
+.postheader {
+  width: 100%;
+  margin-bottom: 60px;
+
+  &__img {
+    width: 100%;
+    height: auto;
+  }
+}
