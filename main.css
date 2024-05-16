@@ -139,6 +139,8 @@
   gap: 40px;
 }
 .vision__desc--img {
+  width: 600px;
+  height: 100%;
   border-radius: 20px;
 }
 
