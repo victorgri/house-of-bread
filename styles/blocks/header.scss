@@ -18,36 +18,34 @@
 
   &__link {
     text-decoration: none;
-      color: #fff;
-      text-transform: uppercase;
-      position: relative;
-      margin-left: 20px;
-    
-      &:after {
-        position: absolute;
-        content: '';
-        width: 0;
-        height: 2px;
-        background-color: #fff;
-        left: 50%;
-        top: 25px;
-        transform: translateX(-50%);
-        transition: all;
-        transition-duration: .5s;
-        transition-timing-function: linear;
-      }
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 20px;
 
-      &:hover {
-        &:after {
-          width: 100%;
-        }
+    &:after {
+      position: absolute;
+      content: '';
+      width: 0;
+      height: 2px;
+      background-color: #fff;
+      left: 50%;
+      top: 25px;
+      transform: translateX(-50%);
+      transition: all;
+      transition-duration: .5s;
+      transition-timing-function: linear;
+    }
+
+    &:hover {
+      &:after {
+        width: 100%;
       }
+    }
   }
 
   &__logo {
-    &--img {
-      width: 70px;
-      height: auto;
-    }
+    width: 70px;
+    height: auto;
   }
 }
